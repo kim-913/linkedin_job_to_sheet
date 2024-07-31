@@ -40,12 +40,15 @@ Share it with the service account email (found in your JSON key file).
 Step 4: Installing Required Python Packages
 Run the following pip commands to install the necessary Python packages:
 
-sh
-Copy code
 pip install selenium
 pip install beautifulsoup4
 pip install gspread
 pip install oauth2client
+
+You can also use venv if wanted:
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+python3 -m pip install xyz
 
 Step 4: Modify the script and run
 Modify from line 119-123 and you are're good to go
